@@ -11,7 +11,7 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+    background-color: #270082;
 }
 form{
     display: flex;
@@ -22,19 +22,24 @@ form{
     width: 90%;
     max-width: 600px;
 }
-form h3{
+form p{
     font-weight: 600;
+    font-size: 80px;
     width: 50%;
     padding: 20px 15px;
     font-size: 20px;
     margin: auto 22vmin;
 }
+.lk{
+    font-size: 33px;
+}
 form input,form textarea{
     padding: 10px;
     margin: 10px 0;
+    color: white;
     outline: none;
     border: none;
-    background-color: rgb(78, 82, 82);
+    background-color: rgb(15, 226, 209);
     border-radius: 5px;
 }
 form button{
